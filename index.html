@@ -4,39 +4,132 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>QProof</title>
-  <meta name="description" content="QProof — post-quantum digital currency.">
+  <meta name="description" content="QProof — post-quantum proof-of-work digital currency.">
   <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0d10;
+      --panel: #11151a;
+      --border: #262b31;
+      --text: #f2f2ee;
+      --muted: #92979e;
+      --gold: #cbae67;
+      --gold-hover: #e4d29a;
+    }
+
+    * { box-sizing: border-box; }
+
     body {
       margin: 0;
-      background: #0b0d10;
-      color: #f3f3f3;
-      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      min-height: 100vh;
       display: grid;
       place-items: center;
-      min-height: 100vh;
     }
+
     main {
+      width: min(720px, calc(100% - 32px));
+      padding: 56px 0;
       text-align: center;
-      padding: 2rem;
     }
+
     h1 {
-      font-size: 3rem;
-      margin-bottom: .5rem;
+      margin: 0 0 8px;
+      font-size: clamp(2.8rem, 8vw, 4.5rem);
+      letter-spacing: -0.04em;
     }
-    p {
-      color: #aaa;
+
+    .gold { color: var(--gold); }
+
+    .tagline {
+      margin: 0;
+      color: var(--muted);
       font-size: 1.15rem;
     }
-    .gold {
-      color: #c7a45a;
+
+    .status {
+      margin: 8px 0 36px;
+      color: var(--muted);
+    }
+
+    .terminal {
+      text-align: left;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 22px 24px;
+      box-shadow: 0 6px 18px rgba(0,0,0,.35);
+    }
+
+    .terminal pre {
+      margin: 0;
+      color: var(--text);
+      white-space: pre-wrap;
+      font: 0.95rem/1.65 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .prompt { color: var(--gold); }
+
+    .mission-link {
+      display: inline-block;
+      margin-top: 18px;
+      color: var(--gold);
+      text-decoration: none;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    .mission-link:hover {
+      color: var(--gold-hover);
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 28px;
+      color: #686e76;
+      font-size: .9rem;
+      line-height: 1.6;
+    }
+
+    footer strong {
+      color: var(--muted);
     }
   </style>
 </head>
 <body>
   <main>
     <h1>Q<span class="gold">Proof</span></h1>
-    <p>Post-Quantum Digital Currency</p>
-    <p>Development in progress.</p>
+
+    <p class="tagline">Post-Quantum Proof-of-Work Cryptocurrency</p>
+    <p class="status">Development in progress.</p>
+
+    <section class="terminal">
+<pre><span class="prompt">&gt; QPROOF / MISSION</span>
+
+Post-quantum by design.
+CPU-mined.
+0 premine.
+0 founder allocation.
+No presale.
+No hidden launch advantage.
+
+Build the protocol.
+Attack it.
+Fix it.
+Test it again.
+
+Launch only when the software earns it.
+
+<span class="prompt">&gt; Built first. Launched later.</span></pre>
+
+      <a class="mission-link" href="mission.txt">read mission.txt</a>
+    </section>
+
+    <footer>
+      <strong>qproof.dev</strong> — permanent project domain<br>
+      DNS / HTTPS activation pending.
+    </footer>
   </main>
 </body>
 </html>

@@ -1,0 +1,50 @@
+QPROOF / MISSION
+
+Build first. Launch later.
+
+QProof exists to explore what a cryptocurrency designed today
+can look like when post-quantum security, fair mining,
+decentralization, and software automation are considered
+from the beginning instead of retrofitted later.
+
+The goals are simple:
+
+- No premine.
+- No founder allocation.
+- No presale.
+- No hidden early-mining advantage.
+- CPU-oriented proof of work.
+- Post-quantum transaction security by design.
+- Open participation by solo miners and independent pools.
+- Decentralized mining infrastructure without privileged consensus.
+- Explicit security boundaries for wallets, applications and AI agents.
+- Conservative protocol development before public launch.
+
+QProof is not being built around a launch date.
+
+It is being built around the idea that consensus software should
+earn trust through testing, criticism and repeatable evidence
+before people are asked to put money or computing power behind it.
+
+Cryptography changes.
+Hardware changes.
+Threats change.
+
+The protocol should be designed expecting that.
+
+QProof will not claim to be perfect, unbreakable or finished.
+
+The objective is simpler:
+
+Build a cryptocurrency that can survive change,
+remain fair to participants,
+and make its security assumptions explicit.
+
+Break it in development.
+Fix what breaks.
+Repeat until testing gets boring.
+
+Then launch.
+
+QProof (QPR)
+Built first. Launched later.
