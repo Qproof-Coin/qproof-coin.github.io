@@ -1,13 +1,23 @@
 QPROOF / MISSION
 
-Build first. Launch later.
+Human judgment.
+AI acceleration.
+Evidence over promises.
 
-QProof exists to explore what a cryptocurrency designed today
-can look like when post-quantum security, fair mining,
-decentralization, and software automation are considered
-from the beginning instead of retrofitted later.
+QProof is an experiment in what happens when human judgment and
+AI-assisted engineering are aimed at the same problem:
 
-The goals are simple:
+Building a fair, post-quantum cryptocurrency before anyone is
+asked to trust it with money or computing power.
+
+AI is not the mission.
+AI is a tool.
+
+Humans choose the goals, values, tradeoffs and acceptable risks.
+Machines help accelerate implementation, analysis and testing.
+Evidence gets the final vote.
+
+The principles are simple:
 
 - No premine.
 - No founder allocation.
@@ -20,31 +30,47 @@ The goals are simple:
 - Explicit security boundaries for wallets, applications and AI agents.
 - Conservative protocol development before public launch.
 
+No promises backed only by a roadmap.
+No security claims backed only by confidence.
+
 QProof is not being built around a launch date.
 
-It is being built around the idea that consensus software should
-earn trust through testing, criticism and repeatable evidence
-before people are asked to put money or computing power behind it.
+Consensus software should earn trust through testing, criticism,
+adversarial review and repeatable evidence before people are asked
+to place economic value behind it.
 
-Cryptography changes.
-Hardware changes.
-Threats change.
+Cryptography will change.
+Hardware will change.
+Threats will change.
 
-The protocol should be designed expecting that.
+A protocol intended to survive should be designed expecting that.
 
 QProof will not claim to be perfect, unbreakable or finished.
 
-The objective is simpler:
+The objective is more useful than that:
 
 Build a cryptocurrency that can survive change,
 remain fair to participants,
-and make its security assumptions explicit.
+keep its security assumptions explicit,
+and improve without abandoning the principles it launched with.
+
+Design it.
+Build it.
+Attack it.
+Measure it.
+Fix it.
+Repeat.
 
 Break it in development.
-Fix what breaks.
-Repeat until testing gets boring.
+Learn from what breaks.
+Keep going until testing gets boring.
 
 Then launch.
 
 QProof (QPR)
+
+Human judgment.
+AI acceleration.
+Evidence over promises.
+
 Built first. Launched later.
